@@ -77,15 +77,15 @@ if($n1>$n2 && $n1>$n3)
 // 8
 echo "</br>";
 
-$units=50;
+$units=100;
 
-if($units>0)
+if($units<=50)
   echo $units*2.5;
-else if($units>100)
+else if($units>50 && $units<=150)
   echo $units*5;
-else if($units>200)
+else if($units>150 && $units<=250)
   echo $units*6.2;
-else if($units>250)
+else
  echo $units*7.5;
 
 
